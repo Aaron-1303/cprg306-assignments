@@ -1,6 +1,8 @@
 import page from "./week-2/page"
 import page1 from "./week-3/page"
 import page2 from "./week-4/page"
+import page3 from "./week-5/page"
+import page4 from "./week-6/page"
 import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
         <li><Link href="/week-2">week-2</Link></li>
         <li><Link href="/week-3">week-3</Link></li>
         <li><Link href="/week-4">week-4</Link></li>
+      <li><Link href="/week-5">week-5</Link></li>
+        <li><Link href="/week-6">week-6</Link></li>
 
 
       </div>
